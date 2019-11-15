@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style type="text/css">
+	.logo{
+		margin-top: 100px;
+		height: 180px;
+		margin-left: 80px;
+	}
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: cornflowerblue;
+  box-shadow: 0px 5px skyblue;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: skyblue;
+}
+.c2{
+	width: 520px;
+	height: 200px;
+	background-color: cornflowerblue;
+	position: absolute;
+	margin-top: 200px;
+}
+.t1{
+	margin-left: 80px;
+	font-family: 'Montserrat', sans-serif;
+}
+.btn {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  width: 90%;
+}
+.fourth {
+  border-color: cornflowerblue;
+  color: #fff;
+  background-image: linear-gradient(45deg, skyblue 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.fourth:hover > .a {
+ 	color: white; 
+ 	text-decoration: none;
+}
+.fourth:hover {
+  background-position: 0;
+}
+.a{
+	text-align: center;
+	color: black
+}
+</style>
+<body>
+	<div class="row">
+		<div class="col-sm-12">
+			<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-7">
+			<img class="logo" src="asf.png"> <br>
+			<h1 class="t1">
+				<b>AS FU...</b>
+No, you're thinking wrong
+			</h1>
+			<h2 class="t1">
+				It's AICS student feedback
+			</h2>
+		</div>
+		<div class="col-sm-5"> <br><br><br><br>
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>WELCOME</h1>
+					<h4>Express your feelings, Don't hide your emotion, just say what you want.</h4>
+				</div>
+			</div> <br>
+			<div class="row">
+				<div class="col-sm-12">
+					<h5>Get started</h5>
+					<button class="btn fourth">
+						<a class="a" href="login.php">Login</a>	
+					</button>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h5>Don't have an account?</h5>
+					<button class="btn fourth">
+						<a class="a" href="register.php">Sign up</a>	
+					</button>	
+				</div>
+			</div>
+		</div>
+	</div>
+	
+		
+</body>
+</html>
